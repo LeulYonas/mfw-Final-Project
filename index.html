@@ -14,6 +14,12 @@
   <script src="https://kit.fontawesome.com/f8a178cdd6.js" crossorigin="anonymous"></script>
   <script src="myscripts.js"></script>
 
+ <!-- Google Font 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo+Play&family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+  
+
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
   <title>Yona's Portfolio</title>
 </head>
@@ -26,10 +32,9 @@
     <nav class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="mx-5" src="./images/Logo-LEUL.jpg" style="width: 80px;" alt="Yona Architects Logo"></a>
-        <button class="btn btn-outline-success mx-5" type="submit">
-          Contact
-        </button>
+          <img class="mx-5" src="./images/Logo-LEUL.jpg" style="width: 80px;" alt="Leul Logo"></a>
+        <button class="btn btn-outline-success mx-5" type="submit"><a href="#contact" style="text-decoration: none; color: black;"> Contact</a>
+        </button>        
         </form>
       </div>
     </nav>
@@ -37,12 +42,13 @@
 
   <!-- Front Page -->
   <section>
-    <div class="container" style="width: 50vw;">
+   
+    <div class="container title" style="width: 50vw;">
       <div class="row mt-5">
         <div class="col" style="text-align:center; align-items: center;">
-          <h1>Designer & Frontend Developer</h1>
-          <h3>Let's build it together</h3>
-          <button class="btn btn-outline-success mx-5 m-5" type="submit" href="">
+          <h1 class="text-dark">Designer & Frontend Developer</h1>
+          <h3 class="text-dark">Let's build it together</h3>
+          <button class="btn btn-outline-success mx-5 m-5" type="submit">
             Contact
           </button>
         </div>
@@ -54,19 +60,34 @@
   </section>
 
   <!-- Profile -->
-  <div class="container bg-primary ">
+  <div class="container bg-success text-white title">
     <div class="intro p-5">
       <h3>Hi, I'am Yonas. Nice to meet you</h3>
-      <p3>I am an all rounded professional who has experience in several deciplines from Biology to Architecture and to
+      <p1>I am an all rounded professional who has experience in several deciplines from Biology to Architecture and to
         Construciton Management.
         My journey as a web developer started during the COVID-19 lock down when I started teaching myself how to code.
         It was this moment that opened my eyes to this fascinating digital world that can be adopted to every industry.
-        Since then I have been perpetually sharpening my skills one design at a time.</p3>
+        Since then I have been perpetually sharpening my skills one design at a time.</p1>
     </div>
   </div>
 
   <!-- Services -->
   <section>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+              <!--CARD HERE-->
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+              <!--CARD HERE-->
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+              <!--CARD HERE-->
+          </div>
+      </div>
+  </div>
+
     <div class="container">
       <div class="row">
         <div class="column card m-1">
@@ -75,7 +96,7 @@
             <h5 class="card-title">Designer</h5>
             <p class="card-text">I design websites that are intuitive and pleasing to interact with.</p>
             <h5 class="card-title">I Design</h5>
-            <p class="card-text">UX<br>UI<br>Web<br>Logos</p>
+            <p class="card-text">UX<br>UI<br>Web<br>Logos</p>            
           </div>
         </div>
 
@@ -106,8 +127,8 @@
 
   <!-- Projects -->
 
-  <section>
-    <div class="container col p-5 bg-primary">
+  <section class="cm my-5">
+    <div class="container col p-5 bg-success title ">
       <div class="row">
         <h3>My Recent Works</h3>
         <p>Here are a few past design projects I've worked on. Want to see more? Email me.</p>
@@ -115,12 +136,12 @@
     </div>
 
     <div class="row">
-      <div class="column card m-1">
+      <div class="column card m-1" >
         <img src="./images/Yona hill 2.png" class="card-img-top thumb" alt="...">
         <div class="card-body">
           <h5 class="card-title">Yona Hills</h5>
           <p class="card-text">High End Consulting Architects Office Providing Service Worldwide</p>
-          <a href="https://leulyonas.github.io/Final-Project/" class="btn btn-primary">Visit Site</a>
+          <a href="https://leulyonas.github.io/Final-Project/" class="btn btn-success">Visit Site</a>
         </div>
       </div>
 
@@ -130,16 +151,18 @@
         <div class="card-body">
           <h5 class="card-title">Modernize</h5>
           <p class="card-text">My First Ever Website</p>
-          <a href="https://leulyonas.github.io/FirstEverClone-David/" class="btn btn-primary">Visit Site</a>
+          <a href="https://leulyonas.github.io/FirstEverClone-David/" class="btn btn-success">Visit Site</a>
+          <br>
         </div>
       </div>
 
       <div class="column card m-1">
         <img src="./images/doctor-man-stethoscope-hospital-84232406.jpg" class="card-img-top thumb" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Modernize</h5>
-          <p class="card-text">My First Ever Website</p>
-          <a href="..." class="btn btn-primary">Visit Site</a>
+          <h5 class="card-title">Doctors Office</h5>
+          <p class="card-text">My First Web Clone</p>
+          <a href="..." class="btn btn-success">Visit Site</a>
+          <br>
         </div>
       </div>
     </div>
@@ -147,10 +170,10 @@
 
   <!-- Contact Form -->
 
-  <section id="contact">
-    <div class="container mt-3 contactContent">
-      <h1 class="text-center m-5 bg-primary p-5">Contact Me</h1>
-      <div class="row ">
+  <section id="contact">    
+    <div class="container">
+      <h1 class="text-center bg-success text-white  title"><a name="contact">Contact Me</a></h1>
+      <div class="row pt-5">
         <div class="col-lg-6" style="align-items:center">          
           <a href="#"><i class="fa-regular fa-envelope fa-3x m-2"></i></a>
           <p>gebremichaelyonas@gmail.com</p>

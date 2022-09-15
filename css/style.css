@@ -42,6 +42,19 @@ body {
   padding: 20px;
 }
 
+.bg-primairy {
+  color : white;
+}
+
+.title {
+  font-family: 'Cairo Play', cursive;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.text-white p {
+  font-family: 'Bebas Neue', cursive;
+}
 
 @media screen and (max-width: 992px) {
   .column {
